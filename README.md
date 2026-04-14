@@ -10,7 +10,10 @@ ResearchAgent is a production-grade, autonomous research system that orchestrate
 ---
 
 ### 🖼️ System Showcase
-![Product Screenshot](image.png)
+<p align="center">
+  <img src="image.png" alt="ResearchAgent Showcase" width="800" style="border-radius: 10px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);">
+</p>
+
 *Modern Glassmorphism UI featuring live telemetry and real-time state tracking.*
 
 ---

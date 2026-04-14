@@ -44,14 +44,17 @@ graph TD
     
     Reporter --> End((STOP))
 
-    %% Styling
-    style Start fill:#f9f,stroke:#333,stroke-width:2px
-    style End fill:#f9f,stroke:#333,stroke-width:2px
-    style Planner fill:#7c6af7,color:#fff
-    style Searcher fill:#3b82f6,color:#fff
-    style Summarizer fill:#22c55e,color:#fff
-    style Critic fill:#f59e0b,color:#fff
-    style Reporter fill:#10b981,color:#fff
+    %% Professional Styling (Muted Slate/Indigo Palette)
+    classDef default fill:#f8fafc,stroke:#334155,stroke-width:1px,color:#1e293b;
+    classDef startStop fill:#1e293b,stroke:#0f172a,color:#f8fafc;
+    classDef process fill:#6366f1,stroke:#4338ca,color:#ffffff;
+    classDef highlight fill:#10b981,stroke:#059669,color:#ffffff;
+    classDef warning fill:#f59e0b,stroke:#d97706,color:#ffffff;
+
+    class Start,End startStop;
+    class Planner,Searcher,Summarizer process;
+    class Critic warning;
+    class Reporter highlight;
 ```
 
 ### 🛡️ Dual-Model Efficiency Strategy

@@ -66,7 +66,6 @@ task.md
 research_notes.md
 analysis_results.md
 experiment_results.md
-*.png
 *.webp
 *.mp4
 *.md
@@ -76,3 +75,4 @@ experiment_results.md
 !implementation_plan.md
 !task.md
 !walkthrough.md
+!image.png

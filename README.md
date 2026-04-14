@@ -1,4 +1,5 @@
 # 🚀 ResearchAgent: The Autonomous Synthesis Engine
+**LangGraph-based Autonomous Research Agent**
 
 [![GitHub Stars](https://img.shields.io/github/stars/Harsha430/graph-research?style=for-the-badge&color=7c6af7)](https://github.com/Harsha430/graph-research/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://opensource.org/licenses/MIT)
